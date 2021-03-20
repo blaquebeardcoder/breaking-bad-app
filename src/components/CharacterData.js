@@ -21,7 +21,9 @@ useEffect (()=> {
     return (
         <div>
             <h1> 🧪Breaking Bad Randomizer </h1>
-            <button onClick={fetchChar}> 🔁 New Character </button>
+            <div className="button">
+                <button onClick={fetchChar}> 🔁 New Character </button>
+            </div>
             <img src={randomChar.img} />
             <h2>{randomChar.name}</h2>
             <h3>"{randomChar.nickname}"</h3>
