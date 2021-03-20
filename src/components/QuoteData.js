@@ -20,10 +20,16 @@ useEffect(()=> {
     return (
         <div>
             <h1>💭Random Quote Generator💭</h1>
-            <button onClick={fetchQuote}>Get Quote</button>
-            <div className="quote-container">
-                <h1>"{randomQuote.quote}"</h1>
-                <h3>- {randomQuote.author}</h3>
+            <div className="button">
+                <button onClick={fetchQuote}>Get Quote</button>
+            </div>
+            <div className="quote-card">
+                <div className="quote-para">
+                    <h1>"{randomQuote.quote}"</h1>
+                </div>
+                <div className="quote-author">
+                    <h3>{randomQuote.author}</h3>
+                </div>
             </div>
         </div>
     )

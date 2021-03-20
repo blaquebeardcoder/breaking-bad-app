@@ -9,7 +9,7 @@ const About = () => {
            <p>
            The Breaking Bad API is a collection of information on the Vince Gilligan series Breaking Bad, as well as his incredible spin-off Better Call Saul. This site is designed to make it easy on the developer to see what HTTP requests are possible, and what information is available.
            </p>
-           <ul>
+           <ul className="about-ul">
                <li>Random Characters</li>
                <li>Random Quotes</li>
            </ul>

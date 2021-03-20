@@ -2,37 +2,84 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 1em;
+  background-color: green;
+}
+
+.footer {
+  position: fixed;
+  padding: 1em;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: greenyellow;
+  color: black;
+  text-align: center;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
+
+div.quote-card {
+  
+  background-color:#3ab624;
+  position: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+	padding: 10;
+	margin-left: 15%;
+	margin-right: 15%;
+	opacity: 85%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+	overflow: hidden;
+	transition: all .2s linear;
+}
+
+div.quote-para {
+  padding: 2%;
+	margin-top: 8%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 8%;
+  font-size: 1rem;
+	letter-spacing: 0.05rem;
+}
+
+div.quote-author {
+  display: inline-flexbox;
+  padding: 20px;
+	background-color: darkblue;
+	color: white;
+	margin: 0;
+}
+
+div.button {
+  padding: 30px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
